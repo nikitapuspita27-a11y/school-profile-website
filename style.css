@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Judul */
+h1 {
+    text-align: center;
+    color: #1e3a5f;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+p {
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+/* Tombol tambah */
+.btn-tambah{
+    display: inline-block;
+    background: #16a34a;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-tambah i{
+    margin-right: 5px;
+}
+
+.btn-tambah:hover{
+    background: #15803d;
+    transform: scale(1.03);
+}
+
+/* Header */ 
+.header{
+    width:100%;
+    background:linear-gradient(135deg,#2563eb,#1e3a8a);
+    padding:30px;
+    color:white;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.header h1{
+    font-size:45px;
+    margin-bottom:10px;
+}
+
+.header p{
+    color:#dbeafe;
+}
+
+
+/* Tabel */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Header tabel */
+table th{
+    background: #2563eb;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* Isi tabel */
+table td{
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+/* Warna selang-seling */
+table tr:nth-child(even){
+    background: #f9fbff;
+}
+
+/* Hover baris */
+table tr:hover{
+    background: #dbeafe;
+    transition: 0.3s;
+}
+
+/* Tombol edit */
+.btn-edit{
+    color: #2563eb;
+    font-size: 18px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+/* Tombol hapus */
+.btn-hapus{
+    color: #dc2626;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+/* Hover icon */
+.btn-edit:hover,
+.btn-hapus:hover{
+    transform: scale(1.2);
+}
+
+/* Membuat tabel lebih modern */
+table th:first-child{
+    border-top-left-radius: 12px;
+}
+
+table th:last-child{
+    border-top-right-radius: 12px;
+}
+
+.container{
+    width: 450px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h2{
+    text-align: center;
+    color: #1e3a5f;
+    margin-bottom: 25px;
+}
+
+label{
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+select{
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input:focus,
+select:focus{
+    border-color: #2563eb;
+    outline: none;
+    box-shadow: 0 0 5px rgba(37,99,235,0.3);
+}
+
+button{
+    width: 100%;
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #1d4ed8;
+    transform: scale(1.02);
+}
